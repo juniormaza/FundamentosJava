@@ -11,4 +11,8 @@ repositories {
 
 dependencies {
 
+    // https://mvnrepository.com/artifact/com.opencsv/opencsv
+    implementation("com.opencsv:opencsv:4.2")
+
+
 }

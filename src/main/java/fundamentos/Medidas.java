@@ -159,7 +159,7 @@ public class Medidas {
     }
 
     public static  void contagemRegressiva(){
-        System.out.println("Comecar a contagem a partir de qual numero? ");
+        System.out.print("Comecar a contagem a partir de qual numero? ");
         int numero = entrada.nextInt();
 
         System.out.print("Diminuindo de quantos em quantos numeros por vez? ");
@@ -169,6 +169,7 @@ public class Medidas {
             System.out.println(i);
         }
     }
+
 
     public static void divisaoPorZero(){
         try {
